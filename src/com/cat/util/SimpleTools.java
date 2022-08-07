@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package com.cat.util;
 
 public class SimpleTools {
     public void bubble(int[] array) {
@@ -12,9 +12,8 @@ public class SimpleTools {
                 }
             }
         }
-        for (int k = 0; k < array.length; k++) {
-            System.out.println(array[k]);
+        for (int i : array) {
+            System.out.println(i);
         }
-
     }
 }
