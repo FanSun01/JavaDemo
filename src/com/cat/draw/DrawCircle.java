@@ -19,6 +19,7 @@ class MyPanel extends JPanel {
     @Override
     public void paint(Graphics gra) {
         super.paint(gra);
+        System.out.println("paint被调用");
         gra.drawOval(10, 10, 100, 100);
     }
 
